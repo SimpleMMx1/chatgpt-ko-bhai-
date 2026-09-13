@@ -5,6 +5,7 @@ import TopSideBar from './components/TopSidebar'
 import SideBar from './components/Sidebar'
 import TopBar from './components/Topbar'
 import Hero from './components/Body'
+import Position from './positon'
 
 
 
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-    <div className='flex flex-row'>
+     <div className='flex flex-row'>
           <div className='flex flex-col w-80 border-2 border-gray-200'>
     <TopSideBar/>
     <SideBar/>
@@ -23,7 +24,7 @@ function App() {
       <Hero/>
      </div>
     </div>
-    
+  
     </>
   )
 }
